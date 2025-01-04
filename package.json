@@ -12,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@parcel/transformer-raw": "^2.13.3",
+    "@types/three": "^0.171.0",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "eslint": "^9.17.0",
@@ -19,5 +21,9 @@
     "parcel": "^2.13.3",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "idb": "^8.0.1",
+    "three": "^0.172.0"
   }
 }
