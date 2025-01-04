@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { SceneManager } from './sceen_manager';
+import { SceneManager } from './scene_manager';
 
 export const manager = new SceneManager();
 
