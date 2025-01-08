@@ -29,7 +29,6 @@ export class Room {
                 };
             };
         });
-        console.log(model)
     };
 
     calculatePosition = (position: THREE.Vector3, offsets: Partial<{ x: number; y: number; z: number }>) => {
