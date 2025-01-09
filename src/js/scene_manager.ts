@@ -10,7 +10,7 @@ export class SceneManager {
         this.camera = new THREE.PerspectiveCamera(75, innerWidth / innerHeight, 0.1, 1000);
         this.camera.position.z = 5;
 
-        this.renderer = new THREE.WebGLRenderer();
+        this.renderer = new THREE.WebGLRenderer({ antialias: true });
         this.renderer.setSize(innerWidth, innerHeight);
         document.body.appendChild(this.renderer.domElement);
 
